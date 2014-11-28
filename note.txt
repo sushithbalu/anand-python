@@ -1,0 +1,19 @@
+_python_
+
+1. function can be called with keyword arguments.
+	def diff(x,y):
+		return x-y
+	diff(x = 2, y = 5) -> -3
+	diff(y = 2, x = 5) -> -3 #order doesnt matter.
+
+2. some arguments can have default values.
+	def increment(x, amount = 1):
+		return x + amount
+
+3. it is possible to create function without name. 
+   using lambda operator.
+	def cubicsum(a, b):
+		c = lambda x: x**3
+		return c(a) + c(b)
+
+
